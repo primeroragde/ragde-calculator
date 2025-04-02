@@ -1,6 +1,5 @@
 class Calcuator {
 public:
-	double userInput;
 
 	double addition(double num1, double num2);
 
