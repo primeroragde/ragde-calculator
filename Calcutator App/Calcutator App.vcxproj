@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e3b96349-fc80-43de-8045-5d4345fb69c8}</ProjectGuid>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectGuid>{4f598180-047e-4533-a029-6317772a74ed}</ProjectGuid>
+    <RootNamespace>CalcutatorApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>calculator</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calcuator.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Calcutator App.cpp" />
+    <ClCompile Include="calcutator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="calcuator.h" />
+    <ClInclude Include="calcutator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
