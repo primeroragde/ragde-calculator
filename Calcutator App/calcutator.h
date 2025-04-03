@@ -12,4 +12,6 @@ public:
 	double default_exponent(double num);
 
 	double custom_exponent(double num, double numExponent);
+
+	double ln(double num);
 };

@@ -45,5 +45,9 @@ public:
 		}
 	}
 
-	//TODO: Add Taylor Series formula to find log of num. (add function for that?)
+
+	double ln(double num)
+	{
+		//TODO: Add Taylor Series formula to find log of num. (add function for that?)
+	}
 };
