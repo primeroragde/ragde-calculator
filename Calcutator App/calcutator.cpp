@@ -1,5 +1,8 @@
+#include <iostream>
+
 class Calcuator {
 public:
+	const double EULER = 2.718281828459045235;
 
 	double addition(double num1, double num2)
 	{
@@ -19,17 +22,28 @@ public:
 		return num1 * num2;
 	}
 
-	double exponent(double num) // Assumes that default exponent is x^2
+	double default_exponent(double num) // Assumes that default exponent is x^2
 	{
 		return num * num;
 	}
 
 	double custom_exponent(double num, double numExponent) // maybe convert numExp
 	{
-		for (int i = 0; i < numExponent; i++) // is this slow method? idk might check this later
+		// needs to consider num as decimal as well
+		if (std::floor(numExponent) != numExponent) // Checks if custom exponent has decimal point. If no, go else
 		{
-			//TODO: Find how decimal point exponent works
 
 		}
+		else
+		{
+			double result = num;
+			for (int i = 1; i < numExponent; i++)
+			{
+				result *= num;
+			}
+			return result;
+		}
 	}
+
+	//TODO: Add Taylor Series formula to find log of num. (add function for that?)
 };

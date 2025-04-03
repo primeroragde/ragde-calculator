@@ -9,4 +9,7 @@ public:
 
 	double multiplication(double num1, double num2);
 
-	double custom_exponent(double num, double numExponent) {};
+	double default_exponent(double num);
+
+	double custom_exponent(double num, double numExponent);
+};

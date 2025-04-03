@@ -2,10 +2,20 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    double input;
+    std::cout << "Number: ";
+    std::cin >> input;
+    if (std::floor(input) != input)
+    {
+        std::cout << "Decimal!";
+    }
+    else {
+        std::cout << "Not decimal!";
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
