@@ -1,5 +1,8 @@
-class Calcuator {
+#include <iostream>
+
+class Calculator {
 public:
+	const double EULER = 2.718281828459045235;
 
 	double addition(double num1, double num2);
 
@@ -13,5 +16,10 @@ public:
 
 	double custom_exponent(double num, double numExponent);
 
+	double sqrt(double num);
+
 	double ln(double num);
+
+private:
+	int babylonian_guess(double num);
 };

@@ -3,19 +3,23 @@
 
 #include <iostream>
 #include <string>
+#include "calculator.h"
 
 int main()
 {
-    double input;
-    std::cout << "Number: ";
-    std::cin >> input;
-    if (std::floor(input) != input)
-    {
-        std::cout << "Decimal!";
-    }
-    else {
-        std::cout << "Not decimal!";
-    }
+    //double input;
+    //std::cout << "Number: ";
+    //std::cin >> input;
+    //if (std::floor(input) != input)
+    //{
+    //    std::cout << "Decimal!";
+    //}
+    //else {
+    //    std::cout << "Not decimal!";
+    //}
+
+    Calculator calc;
+    std::cout << calc.sqrt(54352);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
